@@ -3,8 +3,8 @@ SiiNunit
 mod_package: .mod {
     package_name: "Realistic Weather Enhancer"
     package_version: "1.0"
-    display_name: "🌧️ ETS2 - Weather Enhancer (More Rain & Clouds)"
-    author: "Fernando"
+    display_name: "Weather Enhancer (More Rain & Clouds)"
+    author: "Fernando Arce"
     category[]: "weather"
     description_file: "description.txt"
 }
