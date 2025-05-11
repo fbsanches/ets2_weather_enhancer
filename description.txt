@@ -1,0 +1,1 @@
+Increases weather variety with more clouds, rain, and a higher chance of storms in ETS2 1.54.x.

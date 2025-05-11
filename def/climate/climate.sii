@@ -1,0 +1,29 @@
+SiiNunit
+{
+climate_profile : climate.sii {
+    climate_profile[]: "default"
+    climate_profile[]: "cloudy"
+    climate_profile[]: "rainy"
+}
+
+climate_profile : default {
+    name: "default"
+    sky_config: "/def/climate/default/clear.sii"
+    probability: 0.35
+    transition_time: 600
+}
+
+climate_profile : cloudy {
+    name: "cloudy"
+    sky_config: "/def/climate/default/cloudy.sii"
+    probability: 0.40
+    transition_time: 900
+}
+
+climate_profile : rainy {
+    name: "rainy"
+    sky_config: "/def/climate/default/rainy.sii"
+    probability: 0.25
+    transition_time: 1200
+}
+}
